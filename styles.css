@@ -2,8 +2,8 @@
 :root {
     --primary-color: #e63946;
     --primary-dark: #c1121f;
-    --dark-color: #1a1a1a;
-    --gray-color: #333;
+    --dark-color: #161616;
+    --gray-color: #111111;
     --light-gray: #f5f5f5;
     --white: #ffffff;
 }
@@ -396,8 +396,6 @@ ul {
 }
 
 /* Sección Contacto */
-/* Sección Contacto Compacta */
-/* Sección Contacto Compacta */
 .compact-contact {
     padding: 50px 20px;
 }
@@ -545,7 +543,7 @@ footer {
 /* WhatsApp Float */
 .whatsapp-float {
     position: fixed;
-    bottom: 100px;
+    bottom: 30px;
     right: 30px;
     width: 60px;
     height: 60px;
@@ -566,41 +564,7 @@ footer {
     transform: scale(1.1);
     background-color: #128C7E;
 }
-.instagram-float {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 60px;
-    height: 60px;
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    color: white;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
 
-.instagram-float:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-}
-
-/* Si quieres mantener ambos botones (WhatsApp e Instagram) */
-.whatsapp-float {
-    bottom: 100px; /* Ajustar posición si hay dos botones */
-}
-
-.instagram-float {
-    bottom: 30px;
-}
 /* Burger Menu */
 .burger-menu {
     position: fixed;
