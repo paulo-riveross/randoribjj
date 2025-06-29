@@ -47,30 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Resto del código permanece igual...
-    // Form Submission
-    const contactForm = document.getElementById('contactForm');
-    
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const phone = document.getElementById('phone').value;
-            const message = document.getElementById('message').value;
-            
-            // Here you would typically send the data to a server
-            console.log('Form submitted:', { name, email, phone, message });
-            
-            // Show success message
-            alert('¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.');
-            
-            // Reset form
-            contactForm.reset();
-        });
-    }
+   
     
     // Scroll Animation
     const animateOnScroll = function() {
